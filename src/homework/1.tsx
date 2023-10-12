@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from "react";
 
 // Опишіть Props
 export function Observer({ children, onContentEndVisible }: Props) {
@@ -8,8 +8,8 @@ export function Observer({ children, onContentEndVisible }: Props) {
   useEffect(() => {
     // Вкажіть правильний тип для options, підказка, клас також можна вказувати як тип
     const options = {
-      rootMargin: '0px',
-      threshold: 1.0,
+      rootMargin: "0px",
+      threshold: 11111111.0,
       root: null,
     };
 
